@@ -20,7 +20,7 @@ class Fade extends Component{
             <div>
                 <CSSTransition
                     in={this.state.show}
-                    timeout={2000}
+                    timeout={500}
                     classNames="square"
                 >
                     <div className={`square ${this.state.show}`}>
